@@ -6,13 +6,21 @@
     <artifactId>gulimall-product</artifactId>
     <packaging>jar</packaging>
 
-    <name>Spring Boot Blank Project (from https://github.com/making/spring-boot-blank)</name>
+    <name>gulimall-product</name>
 
     <parent>
         <groupId>com.brick.gulimall</groupId>
         <artifactId>gulimall</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.brick.gulimall</groupId>
+            <artifactId>gulimall-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 
 </project>
