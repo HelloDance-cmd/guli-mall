@@ -8,9 +8,9 @@
 
 package com.brick.common.utils;
 
-import io.renren.common.validator.group.AliyunGroup;
-import io.renren.common.validator.group.QcloudGroup;
-import io.renren.common.validator.group.QiniuGroup;
+import com.brick.common.validator.group.AliyunGroup;
+import com.brick.common.validator.group.QcloudGroup;
+import com.brick.common.validator.group.QiniuGroup;
 
 import java.util.Optional;
 import java.util.stream.Stream;

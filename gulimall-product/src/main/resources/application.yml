@@ -1,0 +1,18 @@
+spring:
+  thymeleaf:
+    cache: false
+  main:
+    show-banner: false
+  datasource:
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.56.10:3306/gulimall_pms
+
+
+logging:
+  level:
+#    jdbc: OFF
+    jdbc:
+      qltiming: DEBUG
+      resultsettable: DEBUG
